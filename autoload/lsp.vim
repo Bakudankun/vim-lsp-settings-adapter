@@ -46,3 +46,9 @@ endfunction
 function! lsp#get_server_status(...) abort
   return "unknown server"
 endfunction
+
+function! lsp#log_verbose(...) abort
+endfunction
+
+function! lsp#ensure_flush_all(...) abort
+endfunction
